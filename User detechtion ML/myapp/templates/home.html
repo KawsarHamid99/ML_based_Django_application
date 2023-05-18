@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello From Kawsar</h1><hr>
+    <form action="result" method="post">
+        {% csrf_token %}
+        <label for="name">sepal length:</label>
+        <input type="text" name="sepal_length" id=""><br><br>
+
+        <label for="name">sepal width:</label>
+        <input type="text" name="sepal_width" id=""><br><br>
+
+        <label for="name">petal length:</label>
+        <input type="text" name="petal_length" id=""><br><br>
+
+        <label for="name">petal width:</label>
+        <input type="text" name="petal_width" id=""><br><br>
+
+        <button type="submit">SUBMIT</button>
+    </form>
+    
+</body>
+</html>
